@@ -1,0 +1,190 @@
+---
+title: Exploring Descending Neurons within the Brain
+author:
+  - name: Matthew Q. Clark
+    email: matthew.clark@bucknell.edu
+    corresponding: true
+    orcid: 0000-0002-1113-9388
+---
+
+## Goal
+
+The goal of this lab is to understand how neural lineages help to build functional circuitry. Though the function of some of these neurons isn’t completely understood, having a connectivity map can help us generate hypotheses about circuit function and also learn about the developmental origins of these circuits.
+
+[**CATMAID**](https://catmaid.readthedocs.io/en/stable/tracing_neurons.html) (Instructions for Tracing Neurons)
+
+With a stable internet connection open [CATMAID](http://tinyurl.com/larval-cns) to access the L1 brain.
+
+@SchneiderMizell2016 is an early paper that described the utility of platform
+
+For how-to movies see [here](https://drive.google.com/drive/folders/1qaNc3_ktt69pmusGiLIXJe7iINqjIll4?usp=sharing)
+
+::::{#fig-catmaid-howto layout-ncol="3"}
+
+:::{#fig-catmaid-a}
+{{< video "assets/catmaid/Add Neurons from your Lineage to the Selection Table.mp4" >}}
+
+Add Neurons from your Lineage to the Selection Table
+:::
+
+:::{#fig-catmaid-b}
+{{< video "assets/catmaid/Display Network of Connectivity.mp4" >}}
+
+Display Network of Connectivity
+:::
+
+:::{#fig-catmaid-c}
+{{< video "assets/catmaid/Display your neuron.mp4" >}}
+
+Display your neuron
+:::
+
+:::{#fig-catmaid-d}
+{{< video "assets/catmaid/Export a Movie.mp4" >}}
+
+Export a Movie
+:::
+
+:::{#fig-catmaid-e}
+{{< video "assets/catmaid/Rotate View Turn on z Plane.mp4" >}}
+
+Rotate View Turn on z Plane
+:::
+
+:::{#fig-catmaid-f}
+{{< video "assets/catmaid/Show a Connectivity Graph.mp4" >}}
+
+Show a Connectivity Graph
+:::
+
+:::{#fig-catmaid-g}
+{{< video "assets/catmaid/Show Pre Post Sites.mp4" >}}
+
+Show Pre Post Sites
+:::
+
+:::{#fig-catmaid-h}
+{{< video "assets/catmaid/Show Table of Synaptic Partners.mp4" >}}
+
+Show Table of Synaptic Partners
+:::
+
+How-to videos for CATMAID
+::::
+
+To do a screenshot in windows [check here](https://support.microsoft.com/en-us/windows/open-snipping-tool-and-take-a-screenshot-a35ac9ff-4a58-24c9-3253-f12bac9f9d44)
+
+For a copy of today’s talk [click here](https://docs.google.com/presentation/d/11kTV7O1N8do7H0kJRcxp_9Tbq3YAU-wSsRf3lmIwotM/edit)
+
+For this module you can work in pairs!
+
+## Part I: Exploring the connections between neurons in a known circuit
+
+### We will be working with neurons:
+
+1. [MDNa\_left; pair 1 left](https://l1em.catmaid.virtualflybrain.org/?pid=1&zp=59900&yp=36430.399999999994&xp=32311.00000000001&tool=tracingtool&sid0=1&s0=3#)
+2. [MDNa\_right; pair 2 right](https://l1em.catmaid.virtualflybrain.org/?pid=1&zp=59900&yp=36430.399999999994&xp=32311.00000000001&tool=tracingtool&sid0=1&s0=3#)
+3. [MDNb\_right; pair 1 right](https://l1em.catmaid.virtualflybrain.org/?pid=1&zp=59900&yp=36430.399999999994&xp=32311.00000000001&tool=tracingtool&sid0=1&s0=3#)
+4. [MDNb\_left; pair 2 left](https://l1em.catmaid.virtualflybrain.org/?pid=1&zp=59900&yp=36430.399999999994&xp=32311.00000000001&tool=tracingtool&sid0=1&s0=3#)
+
+### Display your neuron:
+
+1. Click on the widget that looks like a neuron ![](assets/catmaid/icon01.png) and then press the / on your keyboard
+2. Type in the “annotated” neuron box “DNs from Brain Akira” and change to show 100 entries instead of 50
+3. Select the boxes that say [MDNa\_left; pair 1 left, MDNa\_right; pair 2 right, MDNb\_right; pair 1 right, and MDNb\_left; pair 2 left](https://l1em.catmaid.virtualflybrain.org/?pid=1&zp=59900&yp=36430.399999999994&xp=32311.00000000001&tool=tracingtool&sid0=1&s0=3#)
+4. Open the 3D viewer and click append (make sure the box next to append says Neuron Search 1\)
+5. Within the 3D viewer press view settings
+   1. Find the drop down that says volume and then click the box next to CNS
+   2. Press the check mark next to floor to get rid of the grid on the 3D view screen
+6. Now press View within the 3D viewer and then press the box that says ZX to get it in the correct orientation
+
+### Show a presynaptic site (red points): receiving information
+
+1. In the 3D viewer go to view setting
+2. In the box next to Node handle scaling \- increase the number until the red dots on the neurons are clearly visible
+
+Where are the red points mainly located? The VNC or the cerebral hemispheres?
+
+### Show a postsynaptic site (cyan points): putting out information
+
+1. In the box next to link site scaling, increase the number until the blue dots on the neuron are clearly visible.
+
+Where are the blue points located on the neuron? Are there more on the VNC or in the cerebral hemispheres?
+
+### Show table of synaptic partners:
+
+Click on this widget: ![](assets/catmaid/icon06.png)
+
+#### Display network of connectivity:
+
+Click on this widget: ![](assets/catmaid/icon07.png)
+
+# Connectivity of @CarreiraRosario2018
+
+1. Go back to the neuron search window and in the annotated section copy and past @CarreiraRosario2018 and press submit
+2. Open the 3D viewer and click append (make sure the box next to append says Neuron Search 1\)
+3. Show table of synaptic partners:
+   1. Click on the ![](assets/catmaid/icon06.png) widget
+
+## Part II: Exploring the connections between neurons in an unknown circuit
+
+
+### Key links:
+
+[SEZ from brain](https://docs.google.com/presentation/d/1r-ac3KvVqQhbmmvmLd3968MfA-e9Puf4015lhekibwo/edit)
+[DN from brain](https://docs.google.com/presentation/d/1Jp8d-hfoG3tsbriPiOtaKfXlSRsI67VvZs1trPAoXr4/edit#slide=id.p)
+
+1. Find a bilateral pair of neurons from either powerpoint linked above (SEZ or DN from brain) of the DN’s from the Brain Akira.
+   1. Make sure the neurons you select are similar in some way, this could be by their name, how far they venture into the VNC, all ipsilateral or contralateral, etc.
+2. Follow the similar workflow that was used for the MDNs to **display your neurons, show a table of synaptic partners, and display network of connectivity.** Since there is likely to be a long list of connected neurons, focus on the top 5 upstream and downstream partners shown in the table of synaptic partners. Please show the morphology of the upstream and downstream partners.
+3. For next week's lab update, please share with us your selected DNs, the morphology of the top upstream inputs and downstream outputs, and the connectivity diagram of inputs and outputs of your DNs.
+
+### Useful widgets:
+
+- ![](assets/catmaid/icon02.png) shows keyboard shortcuts
+- ![](assets/catmaid/icon03.png) neuron search (‘/’ also opens this widget)
+- ![](assets/catmaid/icon04.png) 3D viewer of selected skeletons (use this in conjunction with the ![](assets/catmaid/icon05.png) widget to manage list of skeletons)
+
+### Fun search terms:
+
+- "Whole motor neurons at A1 segment akira"
+- "DNs from Brain akira"
+- "DNs from SEZ akira"
+- et al
+
+### Papers to explore neural circuits:
+
+- @Zwart2016
+- @Masson2020
+- @Burgos2018
+- @Eschbach2020
+- @CarreiraRosario2018
+- @Miroschnikow2018
+- @Zarin2019
+- @Mark2021
+- @Berck2016
+- @Eichler2017
+- @Andrade2019
+- @Larderet2017
+- @Ohyama2015
+- @Jovanic2016
+- @Schlegel2016
+- @Jovanic2019
+- @Fushiki2016
+- @Takagi2017
+- @Tastekin2018
+- @Imambocus2022
+- @Kohsaka2019
+- @Heckscher2015
+- @Gerhard2017
+
+
+[image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACo0lEQVR4XmNgGIHgvwMQM6OLUg0ICf36ALSAE1X0vwEqnyD4L8TE9LcGQ/T/f0YpqR+/gSwOqIgoH9/vo6Wl97JRVRIAM2feVpaQ+PkdXRxoAZOkJNgCdiAOFRb++WTGjCt7zpw5w4quFi+4ffs2u6zs959AQ3iRxffv388iLv7jNwfHn4UeHq/vHT9+PBdZniSgpfXli7HxF11kMZBLeXj+/K2vv3332LFjKHIQ8F8ciBnRRbGA/4wSEt+/Skh860YW3bZtG7uY2I8/QHkWZHEI+C8jLv7r3o0bNzzQZTAA0PB6UIizsf35Kyr63RYmDgo6EZGfv4ByTMjqIeC/s739l4fXr183RpfBAKamH44Bg+I/K+vffyoqX2fBxIWFv5lzcv4F+cARWT0E/M/Oynrz6uLFi9zoMmjgf0Fc3JM7wNRxaPPmM4dSUx8/4eL685SB4W8jN/fvryCfsbP//cXO/scTWRfQQStKS1/dAcoLIYujgf9RiYlP7584cUK1oaEBHAwnT54U3rPn9BRV1S9gw2FYWfnbDagef6ADVsvK/rivqPj9LTAIbyObiALy8h6cARougy4OAsLCv74DXQ63ABg/fzg5/7x0cHh7q7v7xjVgkk0FOiYHqB93ptu9ezc/uhgI8PL+ubNhw/l1hYX33xkZffwfHv7sC5B/REDg9zdgcrVCV08C+M8C9P791avPLQTxgPlADujKZKChKiA+0NWTOTj+vkbVQwLg5f19y8bm/SugRTjTNtCSSWRZwsv76+aKFeeXNDffniYv/+08ujwyAIb7RGApexhdHCdISHiatHfv6Q4QG1j+iADzxXugL0zQ1SEDisql0tL765SUvu1BF6caAEasmqHhR1BcyKLLUQ0AgyDo8OHDSujiwx8AAJ7bN1CP7T/jAAAAAElFTkSuQmCC>
+
+[image2]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABZklEQVR4Xu2Tv2vCUBDHszhIh04iAbOLBKxLJl1acOpf4JKlo8XODgquhYL/QZ38FwqFWqGbQ9f8IkIKDknqEq22iV7vPcxyU/V1zAeOwLt33++9ey+SlJFhmqY2HC6m1epmJUkALPL5nYlfne49GhTXR6OPDRNVVYj7fYBebw+KsuNGGHe05ijQwC+XtyDL+2/fhykgYRjCbGZDsRjHaDCnNX/GsqxrNOCddjpMGnQUv2RrLJrNr8MpToQZuK77ycYymXCDRxS+SQ0qlR/I5WBN644iSZIXLg3gR1GkovAzE+92fd69LMMDrTkZx3EUwzDW7XbIxet1WNA9QuDIBmnnrRZs8FQK3SMEjmZeKMTbUgkSduE0L0z6omo1WNKcMDieiyAI3thrGo/hnuaFwe6vbNt+Z+F5XpPmhcHX85SOSNNgRfPCoMFratBowI7mhcE7uGV3cPjpBjT/L6DwOcYZXc8Q5hftmwktG4a/TwAAAABJRU5ErkJggg==>
+
+[image3]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACLklEQVR4Xu1US0sCURSeXLVIchEuMqil7vwHughqZY9tG7cGQdsgqEVEi8CVWxmE2kVCQS0mktoYQkRRPkYd6WVRUFqk+bqdM87jOs6Y0S764DDDud/9zrnnnHsZ5h+/QTKZnPR4iizDkB7tmiAIlkQiMQGcJbRUKuXUcr4Fimxt5e4HBqo7tB/FQFwIh3Nkbu6ZTE8XxO/qav6C5rUhHo+PXF6mvNvb2fXd3czs3p4w5vffZwYHqxzNA/HIykr+A05G0EymxoX8b7eX4zRXAWTlPTnhrx2O0u3QUCVnNtc+4PvudJaSsNFE8ZyxGE96extl8J+BWZorxOLxFCpSIK/MVwB1POvra/Cw2I+l4XneBf8jWh743YHAnZgt2CS9hglKfpb2i4CyvEGtj6LR9Pno6JssoJ+N6CMRMKWxOBB4MmlPWOVKwMyCwZtHu71EbLYKHQDKUd/Q8mlg2SDAy8zMy6dhUkBgp6YKxGqtklqNEJa97iqILL64+GBcHsTBQUYUcrmIGIDjsi0B0KDxMUZpahMg/urzPWPDjcWxqaGQmrHDUW4rk2xwkoQcBMsqJ8aIPTEABtjfz16ZzfU2QQMTm4jl8fme0pKvZaJ0cXyc3oSLohXTs4i6q32iOqLLIPPIxZuP7xCWSiPTGRyXWcCJ0hFuyR6FsXfj48VDRudSdgQ+Hdog0pujTBGeAMQj0rpb3d0lms91ITo8/HkKA7BGi6tAYbL84xP84+/gCxwH2dAnIaeiAAAAAElFTkSuQmCC>
+
+[image4]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACYElEQVR4Xu1US0wTURSd2EKpioZ0Y/wETZq0xh0uiBuX7kwsbjRVVpKGtIZo44bPDo0bP3vdkO6AFNNEoQtIJMACKgH6m+l0nJZEY61AygJLhbmeN51phlKoe3uSk3lv7r3nvDfvvuG4Bv4vCIJwgef5t3i+Bx/q72VZPof5PVEUb1fxRjwebzZqHAkIPAKJMRTK0MjIOgUC2TCLQehWLJbKz85KND+fZlTAXTZeWhIpmeRTgKdaswK2Cgj/XlwU33EczYGks6WFnrOc3t68w+Uq7Bti201NSkSf+3y/KBiUP1Rrq4C4Ewwg8RnoB09EIuK3rq5CCeMc2JZMJi9Ho3zJ4SiS2axs4t2ZcjU1e735N7pRXx8bHwm6w8TT6fR1GO4NDeU+GQ1WVwWjQZuxcmpKjjEDq3Wf7fKKMVaBJElnccjjEFd4XqCOjp1lJD9lsXoGqPH39+fUXbS2lmsOAUkuGMyNjWW3Ojt31GR891csVs8Ah/x4clJWa8xm+oinyRg3gCwmE7nd7q11lqzxZj0DLGw4HP6q54eOMSgDrXltdDSraAW+fzD4MjGR0Q1eGmM1wXqfnYPTWYyiwHucAT7tC3Z/BgZ+6m1cuaQq0DWXsIJNJH3G8zzEbBj/SCSEBFe+F/c1gz/MwGJRCoOD368ipxtcZuLBYEbfrQSePmSApKLfn6eeng1aWEgrmAdxFt1IFlZWxAesbdfWUmS375LNtkfT0xJFowLNzEjbHs+G2qJcuaXtB8SNaG8vvdYSdT4BtX8NXdRWZ4zrHAfvgtaDijVBJ8FToLk60kADNfEX0U8ABdvt738AAAAASUVORK5CYII=>
+
+[image5]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAy0lEQVR4Xu2QMQoCMRBFo4Ig1h5BxF7Bw1h4BPEiXsBe7EREG8Hz2AXbBOLPLsFhkgluLLTYB4/dZP7MsKtUy99xu57dN/J5EXXIFenh8yLaBXxeRFjAsdY6rbUzxvBSRdECcj2FJ7iFR7gkNaknjRDewxk598i71JNGCM+hP1/gCg5ITepJkwn34QSu4Q52QiHTEyOEF+r9W0bwDruhKPSkEcIb+IQH+IBjUpN60mTC/guG7K4i0xMTwv7ZxMYLSvxoQR0rh89r+T0vBEsXykb0Q8IAAAAASUVORK5CYII=>

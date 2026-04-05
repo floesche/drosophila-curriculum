@@ -1,0 +1,111 @@
+/*-- scss:defaults --*/
+
+// ── Color Palette ────────────────────────────────────────────────────────────
+// Pastel Dreamland Adventure — https://coolors.co/palette/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff
+
+$lab-primary: #00a69a;
+$lab-secondary: #e4572e;
+$lab-accent: #ffc914;
+$lab-highlight: #ffc8dd;
+$lab-bg: #bde0fe;
+
+// ── Bootstrap theme color overrides ──────────────────────────────────────────
+
+$primary: $lab-primary;
+$secondary: $lab-secondary;
+$success: $lab-secondary;
+$info: $lab-highlight;
+$warning: $lab-accent;
+$light: $lab-bg;
+$body-bg: mix(white, $lab-bg, 72%);
+
+/*-- scss:rules --*/
+
+// Site title / brand
+.navbar .navbar-brand,
+.navbar .navbar-title {
+    color: $lab-accent !important;
+    text-shadow: 2px 2px 5px rgba($lab-secondary, 0.5);
+
+    &:hover,
+    &:focus {
+        color: lighten($lab-accent, 15%) !important;
+    }
+}
+
+// Nav links (e.g. "Protocols") and dropdown toggles
+.navbar .navbar-nav .nav-link {
+    color: $lab-accent !important;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px rgba($lab-secondary, 0.5);
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: lighten($lab-accent, 15%) !important;
+    }
+}
+
+// Bootstrap icons inside nav links (e.g. GitHub icon)
+.navbar .navbar-nav .nav-link .bi,
+.navbar .navbar-nav .bi {
+    color: $lab-accent !important;
+}
+
+.navbar .navbar-nav .nav-link:hover .bi,
+.navbar .navbar-nav .nav-link:focus .bi {
+    color: lighten($lab-accent, 15%) !important;
+}
+
+// Quarto navigation tools (GitHub icon, reader toggle, etc.)
+// These use .quarto-navigation-tool which Quarto styles late in the cascade.
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+    color: $lab-accent !important;
+}
+
+.navbar .quarto-navbar-tools .quarto-navigation-tool:hover {
+    color: lighten($lab-accent, 15%) !important;
+}
+
+// Quarto search icon (magnifying glass) — overlay mode
+.navbar #quarto-search {
+    color: $lab-accent !important;
+}
+
+.navbar #quarto-search svg.aa-SubmitIcon,
+.navbar #quarto-search .aa-DetachedSearchButtonIcon {
+    color: $lab-accent !important;
+}
+
+.navbar #quarto-search.type-overlay .aa-Autocomplete .aa-Form .aa-Label svg,
+.navbar
+    #quarto-search.type-overlay
+    .aa-Autocomplete
+    .aa-Form
+    .aa-LoadingIndicator
+    svg,
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+    color: $lab-accent !important;
+}
+
+.navbar .aa-DetachedSearchButton .aa-DetachedSearchButtonIcon {
+    color: $lab-accent !important;
+}
+
+.navbar #quarto-search svg,
+.navbar #quarto-search svg path {
+    color: $lab-accent !important;
+    stroke: $lab-accent;
+}
+
+// Dropdown menus spawned from the navbar
+.navbar .dropdown-menu {
+    .dropdown-item {
+        color: $lab-accent;
+
+        &:hover,
+        &:focus {
+            color: lighten($lab-accent, 15%);
+        }
+    }
+}
