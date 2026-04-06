@@ -13,4 +13,5 @@ title: "External links"
 [FlyWire Academy](https://codex.flywire.ai/academy_home/)
 : Do you want to expore more connectomics datasets? Go to FlyWire Academy, whic houses lessons for high school and college teachers, instructors, or scientists doing educational outreach. 
 
-
+[natverse](https://natverse.org/)
+: Did these tutorials make you excited? Do you want to dig deeper? The natverse is a collection of interoperable R packages to import, visualise, analyse, manipulate and export 3D neuroanatomical data, including neurons, brains and brain regions. It has been used to study brain and circuit organisation in species from flies to fish and micNeuroanatomical data analysis
