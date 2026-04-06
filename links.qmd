@@ -10,4 +10,7 @@ title: "External links"
 [neuPrint](https://www.neuprint.janelia.org/)
 : Explore connectomics datasets through neuPrint, a powerful platform for querying large-scale neural circuit reconstructions. Key datasets include the optic lobe, mushroom body,  male VNC and hemibrain.
 
+[FlyWire Academy](https://codex.flywire.ai/academy_home/)
+: Do you want to expore more connectomics datasets? Go to FlyWire Academy, whic houses lessons for high school and college teachers, instructors, or scientists doing educational outreach. 
+
 
