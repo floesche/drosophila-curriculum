@@ -1,0 +1,63 @@
+---
+title: Tracing a Visual Circuit
+author:
+    - name: Frank Loesche
+      email: loeschef@janelia.hhmi.org
+      corresponding: true
+      orcid: 0000-0002-7780-6438
+---
+
+In this activity, you will explore the connectome to trace a pathway from the eye to the central brain's navigation center. You will follow the flow of information from a photosensitive neuron in the eye to a "compass neuron" in the central complex. Later, in Module 6, we provide the experimental setup and understanding to replicate this with a real fly during the "Fly-on-ball" task.
+
+## Objective
+
+Identify the neural pathway connecting the polarization-sensitive dorsal rim area (DRA) of the eye to the Ellipsoid Body (EB) compass neurons.
+
+## Step-by-Step Instructions:
+
+Open the [Male CNS Cell Type Explorer](https://reiserlab.github.io/celltype-explorer-drosophila-male-cns) in your browser.
+
+1. Identify the Input: The Photoreceptor
+    a. In the Male-CNS Cell Type Explorer, search for "R7d", the R7 photoreceptor specialized for detecting polarized light in the Dorsal Rim Area (DRA)
+    b. Select either the Left, the Right, or the Combined view
+    c. On the top, you should see the number of neurons, synapses, connections, and some more basic information
+    d. In the "Population spatial coverage", you can see where these neurons innervate the Medulla, Lobula, and Lobula Plate.
+    <div class="callout-tip">
+       Try selecting a layer next to "ME", "LO", and "LOP" to see the innervation per layer.
+    </div>
+    e. In the "Neuron Visualization", you see at least one example of the neuron, but can add any of the other 40…80 examples to the 3D visualization.
+    f. The "ROI Innervation" shows some statistics about the connections to other neurons.
+2. Find the First Relay: The Dm Neuron
+    a. Under "Connectivity" in the "Outputs", identify the strongest downstream partner.
+    <div class="callout-tip">
+        You can use the table header to sort by "Conns / R7d"
+    </div>
+    b. Click on the name of "Dm-DRA1", which has the most connections per R7d Neuron. This will open the page for Dm-DRA1.
+    c. Explore the page for Dm-DRA1.
+3. Projecting to the Central Brain: The VPN
+    a. Find the strongest output for the Dm-DRA1, which is the Visual Projection Neuron (VPN) MeTu2a.
+    b. In the Neuron Visualization and ROI Innervation, you should see that it has strong connections in the Medulla, but also moves closer to the central brain (AOTU and CentralBrain-unspecified).
+    c. Selecting the strongest output here, would keep you in a loop between MeTu2a and TuTuB_b. Instead we are looking for a neuron that connects the Anterior Optic Tubercle (AOTU) to the Bulb (BU), for example select TuBu01.
+4. Entering the Central Complex: The Ring Neuron
+    a. In the outputs, the strongest connection should now show an Elipsoid Ring Neuron (ER), namely ER4m.
+    b. A click on the ER4m will show the distinct ring structure in the "Neuon Visualization" section of the website.
+    c. Click the strongest output "EPG".
+5. The Destination: The Compass Neuron
+    a. The Ellipsoid Body (EB) from the ROI innervation is the seat of the fly's internal compass.
+    b. In the "Neuron Visualization" click on the "eye" symbol next to the other E-PG to build up the whole compass.
+    c. Find the ER neurons in the "upstream partners" and click on the checkbox in front of the name instead of clicking on the name. This should add the Elipsoid Ring Neurons (ER) to the visualization in the Neuron Visualization part of the page
+    d. Find the "EB" in the ROI Innervation and select the checkbox in front of EB to visualize the Elipsoid Body (EB) in the "Neuron Visualizatio" as well.
+6. Export your visualization
+    a. Click on the "screenshot" button (3rd from the top right) in the "Neuron Visualization" to get an image of your visualization
+    b. Click on the blue squares next to the "Neuron Visualization" name to open the viewer in a separate window. Copy that link to a text document. This specific link will open the exact same visualization whenever you want to recall it.
+
+## Reflection
+
+You just digitally traced the signal path from the polarized sunlight input to the dorsal rim photoreceptors to the navigational "compass neurons" in the Drosophila’s central brain.
+
+## Follow up ideas:
+
+- [ ] Identify other photoreceptors that contribute to the navigation. Hint: Start at the E-PG neuron and move upstream by finding neurons of interest in the "input" section of the "Connectivity" table
+- [ ] Try to find the connection to the motor output.
+- [ ] Trace the same pathway in another connectome dataset, the [Female Adult Fly Brain Cell Type Explorer](https://reiserlab.github.io/celltype-explorer-drosophila-female-adult-fly-brain/index.html). <div class="callout-tip" title="Hint">The names will differ slightly, so start at R7 and try to find the similarly named output neurons from there.</div>
+- [ ] Trace the connection to the Moonwalker neuron?

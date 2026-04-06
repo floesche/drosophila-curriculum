@@ -44,6 +44,8 @@ website:
           href: protocols/hierarchy.qmd
         - text: "Aggression"
           href: protocols/aggression.qmd
+        - text: "Tracing a visual circuit"
+          href: protocols/celltype-explorer.qmd
   page-footer:
     center: ""
 
