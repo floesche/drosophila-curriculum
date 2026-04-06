@@ -70,6 +70,18 @@ Output goes to `public/`.
 | `pixi run render` | Build the static site to `public/` |
 | `pixi run clean` | Remove generated files |
 
+## Editing files directly on GitHub
+
+You can edit files without installing anything locally:
+
+1. Go to the repository at <https://github.com/floesche/drosophila-curriculum>
+2. Navigate to the file you want to edit (e.g., `protocols/hemilineage.qmd`)
+3. Click the **pencil icon** (Edit this file) in the top-right corner of the file view
+4. Make your changes in the editor
+5. Scroll down, add a short commit message describing your change, and click **Commit changes**
+
+The site will rebuild and deploy automatically after each commit. See [GitHub's documentation on editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files) for more details.
+
 ## Working with git
 
 If you are new to git, see [GitHub's Git Handbook](https://docs.github.com/en/get-started/using-git/about-git) for a thorough introduction.
