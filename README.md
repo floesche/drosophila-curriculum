@@ -70,6 +70,26 @@ Output goes to `public/`.
 | `pixi run render` | Build the static site to `public/` |
 | `pixi run clean` | Remove generated files |
 
+## Working with git
+
+If you are new to git, see [GitHub's Git Handbook](https://docs.github.com/en/get-started/using-git/about-git) for a thorough introduction.
+
+Before you start editing, pull the latest changes:
+
+```bash
+git pull
+```
+
+After editing files, stage your changes, commit, and push:
+
+```bash
+git add protocols/my-edited-file.qmd
+git commit -m "Describe what you changed"
+git push
+```
+
+Use `git status` at any time to see which files have been modified.
+
 ## Getting help from an LLM
 
 If you run into problems and want to ask ChatGPT, Copilot, Claude, or another LLM for help, include the following context in your prompt so it can give you accurate advice:
