@@ -5,7 +5,6 @@ author:
     email: j.soffers@umkc.edu
     corresponding: true
     orcid: 0000-0002-1051-7375
-
 ---
 
 ## Retinal Food Preparation
@@ -17,17 +16,18 @@ author:
 
 ---
 
-## Preparation of All-Trans Retinal (ATR) 
+## Preparation of All-Trans Retinal (ATR)
 
-- Suspend ATR in ethanol to make a 250 mM stock solution.  
-- Prepare fly food with a 1:200 dilution → final concentration 0.2 mM.  
-- ATR does not fully dissolve, resuspend as much as possible.  
-- Store 1 mL aliquots at -20°C (stable indefinitely).  
+- Suspend ATR in ethanol to make a 250 mM stock solution.
+- Prepare fly food with a 1:200 dilution → final concentration 0.2 mM.
+- ATR does not fully dissolve, resuspend as much as possible.
+- Store 1 mL aliquots at -20°C (stable indefinitely).
 
-::: {.callout-warning title="Light Sensitivity of ATR"}
+::: {.callout-warning}
+### Light Sensitivity of ATR
+
 All-trans retinal is highly light sensitive. Avoid exposure to strong white light and keep solutions covered with foil whenever possible.
 :::
-
 
 
 ## Fly Media Options
@@ -36,7 +36,7 @@ All-trans retinal is highly light sensitive. Avoid exposure to strong white ligh
 
 - Purchase fly media online
 - Supplement with ATR as needed
-- **Clark lab:** 
+- **Clark lab:**
   - Drip ATR onto food surface
 - **Lacin lab:**
   - Scrape food from ~40 vials (~5 mL each)
@@ -49,9 +49,9 @@ All-trans retinal is highly light sensitive. Avoid exposure to strong white ligh
 **Consumables and Equipment:**
 
 - Fly vials can be purchased from:
-  - https://flystuff.com/drosophila-products/vials/  
-  - Amazon (~$12 per case)  
-- Use cotton or rayon balls as plugs 
+  - [Flystuff.com](https://flystuff.com/drosophila-products/vials/)
+  - Amazon (~$12 per case)
+- Use cotton or rayon balls as plugs
 - Kettle on heat plate or turkey oven
 
 **Recommended mix:**
@@ -68,7 +68,7 @@ All-trans retinal is highly light sensitive. Avoid exposure to strong white ligh
 
 ##### Ingredients
 
-| Ingredient                         | Amount    |
+| Ingredient                       | Amount    |
 |----------------------------------|-----------|
 | Water                            | 1041.5 mL |
 | Yeast (Red Star Active Dry)      | 26.4 g    |
@@ -82,38 +82,33 @@ All-trans retinal is highly light sensitive. Avoid exposure to strong white ligh
 #### Instructions
 
 1. Add ¼ of the water and stir with:
-   - agar  
-   - yeast  
-   - cornmeal  
-   - molasses  
-   (≥10 minutes)
-
-2. Add remaining water and boil for 20 minutes, stirring to dissolve lumps  
-
-3. Add remaining cold water to cool faster  
-
+   - agar
+   - yeast
+   - cornmeal
+   - molasses (≥10 minutes)
+2. Add remaining water and boil for 20 minutes, stirring to dissolve lumps
+3. Add remaining cold water to cool faster
 4. When mixture is < 80°C, add:
-   - acid  
-   - tegosept  
-
+   - acid
+   - tegosept
 5. Add 6 mL of 250 mM ATR
 
-::: {.callout-warning title="Protect from Light During Preparation"}
+::: {.callout-warning}
+### Protect from Light During Preparation
+
 After adding ATR, minimize light exposure. Work quickly and keep containers covered with foil when possible.
 :::
 
 6. Dispense ~5 mL per vial
-
 7. Dry overnight:
-   - cover with cheesecloth  
-   - seal with Press’n Seal  
+   - cover with cheesecloth
+   - seal with Press’n Seal
    - cover tray with foil (light protection)
-
 8. Storage:Best used within 4–6 weeks
 
 
-::: {.callout-tip title="Storage Tip"}
+::: {.callout-tip}
+### Storage Tip
+
 Keep prepared vials covered with aluminum foil and store in low-light conditions to preserve ATR activity.
 :::
-
-
