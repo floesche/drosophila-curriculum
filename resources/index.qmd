@@ -1,0 +1,10 @@
+---
+title: Resources
+---
+
+At this page you find generic protocols to aid in the classroom execution of the module protocols. 
+
+### [Preparing Retinal food](retinal.qmd)
+
+Protocol detailing how to prepare fly food that contains all-trans retinal. 
+

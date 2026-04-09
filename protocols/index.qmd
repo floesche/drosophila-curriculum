@@ -26,4 +26,8 @@ How do sensory signals get transformed into organized sequences of actions? Stud
 
 ### [Aggression in *Drosophila melanogaster*](aggression.qmd)
 
-How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker — bridging circuit manipulation with rigorous behavioral analysis.
+How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker and bridge circuit manipulation with rigorous behavioral analysis.
+
+### [Sleep in *Drosophila melanogaster*](sleep.qmd)
+
+How can internal states like sleep be measured and manipulated? Students monitor activity and rest patterns, analyze sleep metrics such as bout length and latency, and explore how neural circuits and environmental cues regulate sleep. Students learn to link behavior to underlying physiological and circuit mechanisms.
