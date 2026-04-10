@@ -20,10 +20,14 @@ How does birth order within a neuronal lineage shape circuit membership? Student
 
 How can we test whether a specific set of neurons is sufficient to drive a behavior? This hands-on module introduces the GAL4/UAS system and channelrhodopsin-based optogenetics. Students activate targeted neurons in *Drosophila* larvae with light, quantify evoked behaviors, and compare experimental and control animals.
 
-### [Sensory Processing to Sequential Action Control](hierarchy.qmd)
+### [Sensory Processing to Sequential Action Control](hierarchy_student.qmd)
 
 How do sensory signals get transformed into organized sequences of actions? Students set up genetic crosses, prepare flies for optogenetic or thermogenetic activation, and explore how different driver lines recruit distinct nodes in the sensorimotor hierarchy — from sensory interneurons to descending command-like neurons.
 
 ### [Aggression in *Drosophila melanogaster*](aggression.qmd)
 
-How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker — bridging circuit manipulation with rigorous behavioral analysis.
+How can complex social behaviors be quantified and dissected? Students build fighting chambers, record aggression assays between male flies, and learn to design automated behavioral classifiers using tools like JAABA and FlyTracker and bridge circuit manipulation with rigorous behavioral analysis.
+
+### [Sleep in *Drosophila melanogaster*](sleep.qmd)
+
+How can internal states like sleep be measured and manipulated? Students monitor activity and rest patterns, analyze sleep metrics such as bout length and latency, and explore how neural circuits and environmental cues regulate sleep. Students learn to link behavior to underlying physiological and circuit mechanisms.
