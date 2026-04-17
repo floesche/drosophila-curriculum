@@ -37,7 +37,11 @@ website:
         - text: Protocols
           href: protocols/index.qmd
         - text: "Developmental Logic as Circuit Blueprint"
-          href: protocols/hemilineage.qmd
+          contents:
+            - text: Student Version
+              href: protocols/hemilineage_student.qmd
+            - text: Instructor Version
+              href: protocols/hemilineage.qmd
         - text: "Exploring Descending Neurons within the Brain"
           href: protocols/catmaid01.qmd
         - text: "Exploring lineages in the larval VNC"
