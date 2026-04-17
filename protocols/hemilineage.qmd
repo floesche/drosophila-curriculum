@@ -233,11 +233,13 @@ A Neuroglancer link is provided that contains:
 * The TTMn (neuron ID: XXXXX);
 
 * TTMn input, with neurons from each hemilineage assigned to separate layers;
-* All neurons belonging to each hemilineage for the right hemisegment of T2 as reference populations, with each hemilineage assigned to its own. Follow this link to open Neuprint {@fig-neuprint-a}.
+* All neurons belonging to each hemilineage for the right hemisegment of T2 as reference populations, with each hemilineage assigned to its own. Follow this link to open Neuprint @fig-neuprint-a.
 
 :::{#fig-optogenetics}
 
 ![](assets/hemilineage/QR_neuprint.png){#fig-neuprint-a}
+
+Link to Neuprint
 :::
 
 [https://clio-ng.janelia.org/\#\!gs://flyem-user-links/short/EscapeCircuit.json](https://clio-ng.janelia.org/#!gs://flyem-user-links/short/EscapeCircuit.json)
